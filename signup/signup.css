@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../PHOTOS/r11.jpeg');
+    backdrop-filter: blur(5px); 
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+}
+
+.signup-box {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.77);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4549a0;
+}
